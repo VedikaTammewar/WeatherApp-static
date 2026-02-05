@@ -21,7 +21,7 @@
             if (!city) return alert("Please enter a city");
 
             // Call your Azure Function endpoint
-            const functionUrl = "https://<YOUR_FUNCTION_APP>.azurewebsites.net/Backend/getWeather?city=" + encodeURIComponent(city);
+            const functionUrl = "https://<YOUR_FUNCTION_APP>.azurewebsites.net/api/getWeather?city=" + encodeURIComponent(city);
 
             try {
                 const response = await fetch(functionUrl);
