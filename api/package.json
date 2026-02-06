@@ -1,5 +1,9 @@
 {
   "name": "weather-backend",
   "version": "1.0.0",
-  "main": "index.js"
+  "description": "Azure Function for Weather App",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
 }
